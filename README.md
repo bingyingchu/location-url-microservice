@@ -18,4 +18,4 @@ socket.send(b"excelsior playground")
 The microservice receives the location name, parses the string by encoding space characters to plus sign (+) to compose the url, and sends back the url to the client.
 
 #### Please see the following UML sequence diagram for a detailed demonstration:
-![UML sequence diagram][https://github.com/bingyingchu/location-url-microservice/blob/main/SequenceDiagram.png]
+![alt text](https://github.com/bingyingchu/location-url-microservice/blob/main/SequenceDiagram.png "UML sequence diagram")
