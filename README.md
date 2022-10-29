@@ -1,6 +1,6 @@
-## H2 This is a microservice developed for the Playdate web application. The communication pipe is ZeroMQ.
+This is a microservice developed for the Playdate web application. The communication pipe is ZeroMQ.
 
-#### H4 How to REQUEST data from the microservice:
+#### How to REQUEST data from the microservice:
 The client needs to send a string of the location name to the microservice. Example:
 
 ```python
@@ -14,9 +14,9 @@ socket.connect("tcp://localhost:5555")
 socket.send(b"excelsior playground")
 ```
 
-#### H4 How to RECEIVE data from the microservice:
+#### How to RECEIVE data from the microservice:
 The microservice receives the location name, parses the string by encoding space characters to plus sign (+) to compose the url, and sends back the url to the client.
 
-#### H4 Please see the following UML sequence diagram for a detailed demonstration:
+#### Please see the following UML sequence diagram for a detailed demonstration:
 ![UML sequence diagram][diagram]
 [diagram]: https://github.com/bingyingchu/location-url-microservice/SequenceDiagram.png
